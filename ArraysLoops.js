@@ -1,3 +1,4 @@
+/*
 const arr=[10,20,30];
 // console.log(arr);
 // console.log(arr[1]);//Give specific element of arr
@@ -17,3 +18,25 @@ console.log(arr);
 
 arr.splice(0,1); // remove value from array take index and nuber of val to remove
 console.log(arr);
+
+// Array concept end....
+
+*/
+
+/*
+let i=1;//While Loop
+while(i<=5){
+    console.log(i);
+    i++;
+}
+
+for(let i=1;i<=5;i++)//For Loop
+    console.log(i);
+
+*/
+
+const num=[1,2,3,4];
+for(let i=0;i<num.length;i++){
+    const val = num[i];
+    console.log(val);
+}
